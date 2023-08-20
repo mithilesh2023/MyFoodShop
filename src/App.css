@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rajdhani', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* header-start */
+.header{
+  width: 100%;
+  background-color: teal;
   color: white;
+  display: flex;
+  justify-content:space-around;
+  font-size: 20px;
+  align-items: center;
 }
+.pages ul{
+  display: flex;
+  gap: 20px;
+}
+.pages ul li{
+  list-style: none;
+  color:white;
+}
+.a{
+text-decoration: none;
+color:  white;
 
-.App-link {
-  color: #61dafb;
 }
+.logo{
+  font-size: 40px;
+}
+#search{
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 18px;
+}
+/* header-end */
+/* login-start */
+  .login{
+    border: 1px solid black;
+    width: 25%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius:5px;
+    padding: 10px;
+    display: block;
+  }
+  .login h2{
+    text-align: center;
+    font-size: 35px;
+  }
+  label{
+    font-size: 20px;
+  }
+  input{
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+  }
+  .login button{
+      width: 100%;
+      background-color: green;
+      color: white;
+      border: none;
+      font-size: 22px;
+      padding: 10px;
+  }
+  .btn{
+    width: 100%;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 22px;
+    padding: 10px;
+  }
+ #password a{
+    float: right;
+    color: red;
+    text-decoration: none;
+  }
+ 
+  .login-to-register{
+    text-decoration: none;
+    padding-left: 60px;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* login-end */
