@@ -8,6 +8,7 @@ import Contact from './component/Contact';
 import About from './component/About';
 import Product from './component/Product';
 import { useState } from 'react';
+import Register2 from './component/User/Register2';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
      <Route path="/contact" element={<Contact/>}/>
      <Route path="/product" element={<Product/>}/>
      <Route path="/about" element={<About/>}/>
+     {/* <Route path="/register2" element={<Register2/>}/> */}
      
       </Routes>
       </BrowserRouter>
