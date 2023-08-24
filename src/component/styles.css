@@ -1,4 +1,3 @@
-  
   body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -7,40 +6,40 @@
     margin: 0;
     padding: 0;
   }
-  
+
   .swiper {
-    width: 100%;
     height: 70vh;
   }
-  
+
   .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
-  
-    /* Center slide text vertically */
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: calc((100% - 30px) / 2) !important;
   }
-  
+
   .swiper-slide img {
     display: block;
     width: 100%;
-    height: 80vh;
-    /* object-fit:cover; */
+    height: 100vh;
   }
-  /* .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    height: calc((100% - 30px) / 2) !important;
-  
-    Center slide text vertically 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } 
-  */
-  
+
+  /* product_img start */
+  #mySwiper2{
+    width: 95%;
+  }
+  #our_products{
+    font-size: 40px;
+    padding: 10px;
+    text-decoration: underline;
+    color: teal;
+  }
+.MyProducts img{
+
+float: left;
+width:  385px;
+height: 200px;
+object-fit: cover;
+}
+  /* product_img end */
